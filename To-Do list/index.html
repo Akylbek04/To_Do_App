@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO App</title>
+    <!-- RESET -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"/>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap">
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="app.css">
+
+</head>
+
+<body>
+    <header id="main-header">
+        <div class="container">
+            <h1>Today</h1>
+            
+            <form action="" id="todo-form">
+                <input type="text" name="task-name" placeholder="e.g. Buy groceries" autofocus>
+                <button type="submit">Add task</button>
+            </form>
+        </div>
+    </header>
+
+
+    <section>
+        <div class="container" id="main-content">
+            <ul class="stats">
+                <li>
+                    <span>Remaining</span>
+                    <span id="remaining-tasks">0</span>
+                </li>
+                <li>
+                    <span>Completed</span>
+                    <span id="completed-tasks">0</span>
+                </li>
+                <li>
+                    <span>Total</span>
+                    <span id="total-tasks">0</span>
+                </li>
+            </ul>
+            <ul class="todos"> 
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>
+                <small>Code&Design by Akylbek Zamirov </small>
+            </p>
+        </div>
+    </footer>
+    <script src="app.js" charset="UTF-8"></script> 
+</body>
+</html>
